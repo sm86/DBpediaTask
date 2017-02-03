@@ -18,7 +18,7 @@ data = f.read() #read the data from the file.
 
 #Dumping Categories into MySQL Database
 dbConnection = pymysql.connect(user='your-username',      # Username
-								 passwd='your-password',  #Your password
+				passwd='your-password',  #Your password
                                  host='localhost', #Your Host name
                                  database='dbpedia') #Database name
 cursor = dbConnection.cursor()    
